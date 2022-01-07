@@ -1,0 +1,545 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Montserrat';
+}
+
+main {
+  background-color: rgb(243, 246, 253);
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+footer {
+  margin-top: -150px;
+  height: 150px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.direction-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #DDE0EA;
+}
+
+.text-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-bottom: 0.5em;
+}
+
+.mathematics-content {
+  display: flex;
+}
+
+.exam-element {
+  background: linear-gradient(180deg, #A8DADC 0%, rgba(168, 218, 220, 0) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 12px;
+  height: 73px;
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 15%);
+  ;
+  border: 0 !important;
+
+}
+
+.direction-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.direction-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(243, 246, 253);
+  border: 2px solid #457B9D;
+  border-radius: 10px;
+}
+
+.direction-button {
+  width: 150px;
+  height: 30px;
+}
+
+.direction-content {
+  display: flex;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.contacts {
+  width: 450px;
+}
+
+.logo-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 23px;
+  margin-left: 5px;
+  line-height: 20px;
+}
+
+@media (max-width: 1093px) {
+  .exams-image {
+    width: 400px;
+  }
+}
+
+.exams-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img-number {
+  width: 40px;
+  margin-left: 5px;
+}
+
+.items-container {
+  display: flex;
+}
+
+.img-prep {
+  width: 200px;
+  height: 267px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.prep-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.prep-content-second {
+  margin-top: 30px;
+}
+
+.prep-content-text {
+  margin-top: 63px;
+  font-weight: bold;
+}
+
+.prep-container {
+  background-color: white;
+  padding-bottom: 20px;
+  border-top: 1px solid #DDE0EA;
+}
+
+.images-container {
+  margin-top: 20px;
+}
+
+.prep-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.image-container {
+  width: 200px;
+  height: 267px;
+}
+
+.direction-text {
+  font-size: 35px;
+}
+
+.wrap .row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+#exams-section {
+  background: #457B9D no-repeat;
+  background-image: url(assets/Polygon\ 2.png), url(assets/Polygon\ 3.png);
+  background-position: 100% 50%, 0% 50%;
+}
+
+@media (max-width: 768px) {
+  #exams-section {
+    background-image: inherit;
+  }
+}
+
+.exam-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  border-radius: 45px !important;
+}
+
+.card-body img {
+  height: 170px;
+}
+
+.card-button {
+  background-color: #E63946 !important;
+  border-radius: 20px !important;
+}
+
+.boxes-section {
+  background-color: #A8DADC;
+}
+
+
+.d-md-block {
+  display: flex !important;
+}
+
+.row {
+  display: flex !important;
+  align-items: stretch !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%6c757d' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%6c757d' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.marker {
+  background-image: url('/assets/map-marker-icon.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.image-institute {
+  background-position: center;
+  background-size: cover;
+}
+
+.title-institute {
+  font-weight: 700;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+}
+
+.institute-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.image-institute .container {
+  height: 100%;
+}
+
+.container .row {
+  height: 100%;
+}
+
+#image-institute {
+  width: 80px;
+}
+
+@media (min-width: 768px) {
+  .title-institute {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .abcd{
+    font-size:14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-institute {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+.border-top {
+  border-top: 2px solid #001219;
+}
+
+/* SKILLS SECTION */
+#skills-section {
+  background: #A8DADC;
+}
+
+@media (max-width: 1200px) {
+  .skills-image {
+    width: 350px;
+  }
+
+  .skills-element {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 993px) {
+  .skills-image {
+    width: 270px;
+  }
+
+  .skills-element {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-element {
+    font-size: 19px;
+  }
+
+  .speciality-content span {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 993px) {
+  .skills-image {
+    width: 270px;
+  }
+
+  .skills-element {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 993px) {
+  .exam-element {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .exam-element {
+    font-size: 20px;
+  }
+
+
+}
+
+/* .speciality-text span{
+    font-size: 2vw;
+  } */
+
+#speciality-section{
+    background: #F1FAEE;
+  }
+
+  .spec-bold{
+    font-size: 20px;
+  }
+
+@media (min-width: 1199px) {
+  .exam-element {
+    font-size: 20px;
+  }
+}
+
+
+
+
+#work-section {
+  background: #457B9D no-repeat;
+  background-image: url(assets/Polygon\ 1.png);
+  background-position: 0% 70%
+}
+
+
+/* DIRECTIONS */
+
+.card-content {
+  background: #001219 !important;
+}
+
+.direction-button {
+  width: 233px;
+  height: 45px;
+}
+
+@media (min-width: 960px) {
+  .direction-image {
+    margin: 37px 0 53px 0;
+    height: 222px !important;
+    width: 222px;
+  }
+
+  .card-text {
+    margin-bottom: 120px;
+  }
+
+  .button-content {
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  /* .skills-element{
+        font-size: 15px;
+    } */
+}
+
+@media (min-width: 768px) {
+  .button-content {
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  
+
+  .card-text {
+    margin-bottom: 70px;
+  }
+
+  .abcd{
+    font-size:14px;
+  }
+
+}
+
+.speciality-content {
+  flex-direction: column;
+  border: 2px solid #E63946;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 2px;
+  height: 117px;
+}
+
+.speciality-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 16px;
+    line-height: 20px; */
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.special-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.speccialy-image {
+  width: 10.833333333333333%;
+  *width: 10.833333333333333%;
+}
+
+
+@media (max-width: 1199px) {
+  .speciality-content span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 991px) {
+  .speciality-content span {
+    font-size: 10px;
+  }
+}
+
+.col-md-7 .exam-container {
+  list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='-2.2 -2.4 4 4' fill='#fff'><circle r='1' /></svg>");
+  margin-left: 10px
+}
+
+@media (max-width: 602px) {
+  .card-title {
+    width: 296px;
+  }
+
+  .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.teachers-image {
+  border: 1px solid #001219;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+  background-color: white;
+    height: 200px !important;
+    width: 133px !important;
+    object-fit: cover;
+}
+
+#teachers{
+  background: #F1FAEE;
+}
+
+.d-flex h4 {
+  margin: 0 !important
+}

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Acsendoflex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,500&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+        </header>
+        <main>
+
+
+            <!-- directions -->
+            <section class="p-5 pt-4 border-top boxes-section">
+                <div class="container">
+                    <div class="row text-center">
+                        <h2 class="mb-4 fw-bold">Направления подготовки специалистов</h2>
+                        <div class="col-md d-flex align-items-stretch my-2">
+                            <div class="card text-light card-container card-content">
+                                <div class="card-body text-center">
+                                    <img src="assets/think (1) 1.png" class="direction-image" alt="">
+                                    <div>
+                                        <p class="card-text">Программа <b>«Прикладная математика»</b> разработана
+                                            специально для
+                                            амбициозных людей , которые
+                                            привыкли быть лучшими и не готовы останавливаться на достигнутом.
+                                            Обучение позволит Вам повысить уровень аналитического мышления, научит
+                                            выстраивать
+                                            логические цепочки, работать с информацией, а также программировать на
+                                            современных
+                                            языках
+                                            таких как Phyton, C#, SQL и др.</p>
+                                        <div class="button-content">
+                                            <a href="#"
+                                                class="btn  btn-lg card-button text-light direction-button">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md d-flex align-items-stretch my-2">
+                            <div class="card text-light card-container card-content">
+                                <div class="card-body text-center">
+                                    <img src="assets/analytics (1) 1.png" class="direction-image" alt="">
+                                    <div>
+                                        <p class="card-text">Программа <b>«Бизнес информатика»</b> дает глубокие
+                                            системные знания
+                                            и навыки в финансовой сфере
+                                            идеально подходящие для тех,
+                                            финансовых и экономических отделах предприятий в
+                                            маркетинге
+                                            и рекламном бизнесе.
+                                            Получите практические инструменты для решения всех элементов управления
+                                            бизнесом:
+                                            стратегия,
+                                            маркетинг, финансы, цифровизация.</p>
+                                        <div class="button-content">
+                                            <a href="#"
+                                                class="btn  btn-lg card-button text-light direction-button">Подробнее</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- work -->
+            <section id="work-section">
+                <div class="container">
+                    <h2 class="text-center fw-bold p-4 pt-5 text-white">Кем становятся после учебы
+                    </h2>
+                    <div class="row g-4 pb-4">
+                        <div class="col-md-7">
+                            <ul class="list-group list-group-flush lead exam-container text-white">
+                                <li class="mb-3 skills-element fw-bolder">
+                                    Разработчик программного обеспечения
+                                </li>
+                                <li class="mb-3 skills-element  fw-bolder">
+                                    Web – разработчик
+                                </li>
+                                <li class="mb-3 skills-element fw-bolder">
+                                    Специалист по машинному обучению (Machine Learning) </li>
+                                <li class="mb-3 skills-element fw-bolder">
+                                    Специалист по анализу данных (Data Science)
+                                </li>
+                                <li class="mb-3 skills-element fw-bolder">
+                                    Аналитик данных (Big Data Analyst)
+                                </li>
+                                <li class="mb-3 skills-element fw-bolder">
+                                    Специалист по интеллектуальной обработке данных (Data Mining Specialist)
+                                </li>
+                                <li class="mb-3 skills-element fw-bolder">
+                                    Специалист по математическому моделированию </li>
+                                <li class="mb-5 skills-element fw-bolder">
+                                    Бизнес аналитик или BI разработчик (Business Intelligence) </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5 d-none d-md-flex align-items-center">
+                            <img src="assets/it-deparment 1.png" alt="" class="skills-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- speciality -->
+            <section id="speciality-section">
+                <div class="container pb-5">
+                    <h2 class="text-center fw-bold p-5">Специальность прикладная математика – это специальность будущего
+                        которая будет востребована и через <span class="text-danger">5-10</span> лет на рынке труда.
+                    </h2>
+
+                    <div class="d-flex border-bottom border-secondary pb-5 col col-md-12 d-none d-md-flex">
+                        <div class="speciality-content  d-flex align-items-center justify-content-center col-md-2">
+                            <div class="text-danger fw-bold spec-bold">4 года</div>
+                            <div class="speciality-text"><span class="">Продолжительность обучения</span></div>
+                        </div>
+                        <img src="assets/Vector 1.png" class="img-fluid speccialy-image" alt="1">
+                        <div class="speciality-content  d-flex align-items-center justify-content-center col-md-2">
+                            <div class="text-danger fw-bold spec-bold">47</div>
+                            <div class="speciality-text"><span class="">Бюджетных мест</span></div>
+                        </div>
+                        <img src="assets/Vector 2.png" class="img-fluid speccialy-image" alt="2">
+                        <div class="speciality-content  d-flex align-items-center justify-content-center col-md-2">
+                            <div class="text-danger fw-bold spec-bold">180</div>
+                            <div class="speciality-text"><span class="">Проходной балл в 2021 году</span></div>
+                        </div>
+                        <img src="assets/Vector 3.png" class="img-fluid speccialy-image" alt="3">
+                        <div class="speciality-content  d-flex align-items-center justify-content-center col-md-2">
+                            <span class="speciality-text">Стажировка в престижных университетах <span
+                                    class="text-danger">Германии</span></span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex border-bottom border-secondary pb-5 col d-md-none">
+                        <div class="col col-md-12">
+                            <div
+                                class="speciality-content  d-flex align-items-center justify-content-center col  col-md-5 m-2">
+                                <div class="text-danger fw-bold">4 года</div>
+                                <div class="speciality-text"><span class="abcd">Продолжительность обучения</span></div>
+                            </div>
+                            <div
+                                class="speciality-content  d-flex align-items-center justify-content-center col  col-md-5 m-2">
+                                <div class="text-danger fw-bold">47</div>
+                                <div class="speciality-text"><span class="abcd">Бюджетных мест</span></div>
+                            </div>
+                        </div>
+                        <div class="col col-md-12">
+                            <div
+                                class="speciality-content  d-flex align-items-center justify-content-center col col-md-5 m-2">
+                                <div class="text-danger fw-bold">180</div>
+                                <div class="speciality-text"><span class="abcd">Проходной балл в 2021 году</span></div>
+                            </div>
+                            <div
+                                class="speciality-content  d-flex align-items-center justify-content-center col  col-md-5 m-2">
+                                <span class="speciality-text">Стажировка в престижных университетах <span
+                                        class="text-danger">Германии</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- skills -->
+            <section id="skills-section">
+                <div class="container">
+                    <h2 class="text-center fw-bold p-4 pt-5">Навыки, которые <span class="text-danger">вы</span>
+                        получите
+                    </h2>
+                    <div class="row g-4 pb-4">
+                        <div class="col-md-5 d-none d-md-flex align-items-center">
+                            <img src="assets/window 1.png" alt="" class="skills-image">
+                        </div>
+                        <div class="col-md-7">
+                            <ul class="list-group list-group-flush lead exam-container">
+                                <li class="mb-2 skills-element fw-bolder">
+                                    Научитесь программировать на современных языках таких как: <u>С#, HTML, JavaScript,
+                                        PHP, SQL.</u>
+                                </li>
+                                <li class="mb-2 skills-element  fw-bolder">
+                                    Получите знания работы с большим объемом информации.
+                                </li>
+                                <li class="mb-2 skills-element fw-bolder">
+                                    Развитое логическое и аналитическое мышление.
+                                </li>
+                                <li class="mb-2 skills-element fw-bolder">
+                                    Получите знания математической статистики, принципов моделирования, теории
+                                    вероятностей и пр.
+                                </li>
+                                <li class="mb-2 skills-element fw-bolder">
+                                    Научитесь работать в специализированных программах в области математического
+                                    моделирования.
+                                </li>
+                                <li class="mb-4 skills-element fw-bolder">
+                                    Получите знания принципов машинного обучения.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXAMS -->
+            <section id="exams-section">
+                <div class="container">
+                    <h2 class="text-center fw-bold pt-5 text-white">Какие экзамены нужно сдать?</h2>
+                    <div class="col-md-6 d-md-none exams-image-container">
+                        <img src="assets/exam 1.png" alt="" style="width: 150px;">
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-5">
+                            <ul class="list-group list-group-flush lead exam-container">
+                                <li class=" mb-5 exam-element d-flex align-items-center justify-content-center">
+                                    <div class="fw-bold ">Русский язык ЕГЭ</div>
+                                </li>
+                                <li class=" mb-5 exam-element d-flex align-items-center justify-content-center">
+                                    <div class="fw-bold">Профильная математика ЕГЭ</div>
+                                </li>
+                                <li class=" mb-5 exam-element d-flex align-items-center justify-content-center">
+                                    <div class="fw-bold">Информатика или физика ЕГЭ</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 d-none d-md-block">
+                            <img src="assets/exam 1.png" alt="" class="exams-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- TEACHERS -->
+            <section id="teachers" class='p-5'>
+                <div class="container">
+                    <h2 class="text-center">Наши преподавалели</h2>
+                    <p class="lead text-center mb-5">Преподаватели кафедры «Прикладной математики» — это
+                        не теоретики,
+                        обучающие по пыльным учебникам
+                        двадцатилетней давности. Это эксперты в своих областях, практикующие специалисты,
+                        российские ученые с мировым именем.</p>
+                    <div class="row">
+                        <div class="col-md-12 d-flex justify-content-center">
+                            <div class="col-md-3 d-none d-md-flex d-flex align-items-stretch justify-content-center">
+
+                                <div class="card-body text-center">
+                                    <img src="/assets/Ткачев.jpg" alt="" class="teachers-image mb-3">
+                                    <div
+                                        class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                        <h4 class="card-title mb-3">Ткачев А.Н.</h4>
+                                        <span>Профессор</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 d-none d-md-flex d-flexalign-items-stretch justify-content-center">
+
+                                <div class="card-body text-center">
+                                    <img src="/assets/Slava.png" alt="" class="teachers-image mb-3">
+                                    <div
+                                        class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                        <h4 class="card-title mb-3">Шкуропадский И.B.</h4>
+                                        <span>Доцент</span>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 d-none d-md-flex d-flexalign-items-stretch justify-content-center">
+
+                                <div class="card-body text-center">
+                                    <img src="/assets/Бузало-removebg-preview.png" alt="" class="teachers-image mb-3">
+                                    <div
+                                        class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                        <h4 class="card-title mb-3">Бузало Н.C.</h4>
+                                        <span>Доцент</span>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 d-flex justify-content-center">
+                            <div class="col-md-3 d-none d-md-flex d-flexalign-items-stretch justify-content-center">
+
+                                <div class="card-body text-center">
+                                    <img src="/assets/volkovvs-removebg-preview.png" alt="" class="teachers-image mb-3">
+                                    <div
+                                        class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                        <h4 class="card-title mb-3">Волков В.C</h4>
+                                        <span>Старший Преподаватель</span>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 d-none d-md-flex d-flexalign-items-stretch justify-content-center">
+
+                                <div class="card-body text-center">
+                                    <img src="/assets/Данилина-removebg-preview.png" alt="" class="teachers-image mb-3">
+                                    <div
+                                        class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                        <h4 class="card-title mb-3">Данилина Э.M.</h4>
+                                        <span>Доцент</span>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 d-none d-md-flex d-flexalign-items-stretch justify-content-center">
+
+                                <div class="card-body text-center">
+                                    <img src="/assets/Денисов-removebg-preview.png" alt="" class="teachers-image mb-3">
+                                    <div
+                                        class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                        <h4 class="card-title mb-3">Денисов П.A.</h4>
+                                        <span>Доцент</span>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="carouselExampleControls" class="carousel slide d-md-none d-flex" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active align-items-stretch justify-content-center">
+                                <div class="card bg-lite">
+                                    <div class="card-body text-center">
+                                        <img src="/assets/Ткачев.jpg" alt="" class="teachers-image mb-3">
+                                        <div
+                                            class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                            <h4 class="card-title mb-3">Ткачев А.Н</h4>
+                                            <span>Профессор</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item align-items-stretch justify-content-center">
+                                <div class="card bg-lite">
+                                    <div class="card-body text-center">
+                                        <img src="/assets/Slava.png" alt="" class="teachers-image mb-3">
+                                        <div
+                                            class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                            <h4 class="card-title mb-3">Шкуропадский И.B.</h4>
+                                            <span>Доцент</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item align-items-stretch justify-content-center">
+                                <div class="card bg-lite">
+                                    <div class="card-body text-center">
+                                        <img src="/assets/Бузало-removebg-preview.png" alt=""
+                                            class="teachers-image mb-3">
+                                        <div
+                                            class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                            <h4 class="card-title mb-3">Бузало Н.C.</h4>
+                                            <span>Доцент</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item align-items-stretch justify-content-center">
+                                <div class="card bg-lite">
+                                    <div class="card-body text-center">
+                                        <img src="/assets/volkovvs-removebg-preview.png" alt=""
+                                            class="teachers-image mb-3">
+                                        <div
+                                            class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                            <h4 class="card-title mb-3">Волков В.C.</h4>
+                                            <span>Старший Преподаватель</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item align-items-stretch justify-content-center">
+                                <div class="card bg-lite">
+                                    <div class="card-body text-center">
+                                        <img src="/assets/Данилина-removebg-preview.png" alt=""
+                                            class="teachers-image mb-3">
+                                        <div
+                                            class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                            <h4 class="card-title mb-3">Данилина Э.M.</h4>
+                                            <span>Доцент</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item align-items-stretch justify-content-center">
+                                <div class="card bg-lite">
+                                    <div class="card-body text-center">
+                                        <img src="/assets/Денисов-removebg-preview.png" alt=""
+                                            class="teachers-image mb-3">
+                                        <div
+                                            class="d-flex align-items-stretch justify-content-center align-items-center flex-column">
+                                            <h4 class="card-title mb-3">Денисов П.A.</h4>
+                                            <span>Доцент</span>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-gray" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
+            </section>
+
+            <!-- ABOUT INSTITUTE -->
+            <section class="about-institute">
+
+                <div class="bg-image image-institute img-fluid" style="background-image: url('./assets/TsmvjQ-313Y\ 1.png');
+                                    height: 100vh">
+                    <div class="container">
+                        <div class="row">
+                            <div class="institute-content col col-md-12">
+                                <h2 class="text-white title-institute">О институте</h2>
+                                <img src="assets/mortarboard.png" id="image-institute">
+                                <p class="text-white">ФГБОУ ВО "ЮРГПУ (НПИ) имени М.И.Платова"
+                                    находиться в городе Новочеркасске рядом с ИТ-столицей России городом
+                                    Ростовом-на-Дону. Сам
+                                    институт
+                                    представляет собой красивый архитектурный комплекс в котором современные лаборатории
+                                    оснащенные
+                                    передовым оборудованием. На территории института находятся как кампусы так
+                                    спортивные объекты. В
+                                    институте можно пройти военную подготовку. Наши студенты занимают первые места на
+                                    олимпиадах и в
+                                    спорте.
+                                    Творчески выражают себя участвуя в студенческих фестивалях и КВН</p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+    </div>
+    </section>
+    </div>
+    </main>
+    </div>
+
+    <!-- CONTACT INFORMATION -->
+    <section class="p-5 bg-white">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">Узнайте больше о кафедре</h2>
+            <h3 class="text-center "> Мы с радостью ответим на все вопросы и поможем подобрать специальность</h3>
+            <div class="row g-4 border-top border-secondary mt-4">
+                <div class="col-md">
+                    <h4 class="text-center mb-4">Контактная информация</h4>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Адрес: </span> 346428, г. Новочеркасск, Ростовская обл., ул.
+                            Просвещения, 132, лабораторный корпус, 2 этаж, каф. «Прикладная математика», к. 205-207.
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Номер кафедры:</span> (555) 555-5555
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold"> зав. кафедрой Ткачев Александр Николаевич:</span> (8635) 255-692
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">email кафедры: </span> math@mail.ru
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">режим работы: </span> Режим работы: пн-пт 08:00 - 17:00 сб-вс выходной
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmVpMTk4MzQwIiwiYSI6ImNreGdpOGZ5bzIwcmQyb3N0MnB6Zm44aTgifQ.PEhdL6WFfQnQtlkVvbsV0Q';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [40.08622527122497,
+                47.418999187084616],
+            zoom: 14,
+        });
+
+        const geojson = {
+            type: 'FeatureCollection',
+            features: [
+                {
+                    type: 'Feature',
+                    geometry: {
+                        type: 'Point',
+                        coordinates: [40.08622527122497,
+                            47.418999187084616]
+                    },
+                    properties: {
+                        title: 'Mapbox',
+                        description: 'Washington, D.C.'
+                    }
+                }
+            ]
+        };
+
+        for (const feature of geojson.features) {
+            const el = document.createElement('div');
+            el.className = 'marker';
+            new mapboxgl.Marker(el).setLngLat(feature.geometry.coordinates).addTo(map);
+        }
+    </script>
+</body>
+
+</html>
